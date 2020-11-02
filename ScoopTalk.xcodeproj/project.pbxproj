@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681E5D2B255042EE0027B92B /* ScoopTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E5D2A255042EE0027B92B /* ScoopTalkApp.swift */; };
+		681E5D2D255042EE0027B92B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E5D2C255042EE0027B92B /* ContentView.swift */; };
+		681E5D2F255042F20027B92B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681E5D2E255042F20027B92B /* Assets.xcassets */; };
+		681E5D32255042F20027B92B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681E5D31255042F20027B92B /* Preview Assets.xcassets */; };
+		681E5D3D255042F20027B92B /* ScoopTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E5D3C255042F20027B92B /* ScoopTalkTests.swift */; };
+		681E5D48255042F20027B92B /* ScoopTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E5D47255042F20027B92B /* ScoopTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681E5D39255042F20027B92B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E5D1F255042EE0027B92B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681E5D26255042EE0027B92B;
+			remoteInfo = ScoopTalk;
+		};
+		681E5D44255042F20027B92B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E5D1F255042EE0027B92B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681E5D26255042EE0027B92B;
+			remoteInfo = ScoopTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		681E5D27255042EE0027B92B /* ScoopTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoopTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		681E5D2A255042EE0027B92B /* ScoopTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopTalkApp.swift; sourceTree = "<group>"; };
+		681E5D2C255042EE0027B92B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		681E5D2E255042F20027B92B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		681E5D31255042F20027B92B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		681E5D33255042F20027B92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681E5D38255042F20027B92B /* ScoopTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681E5D3C255042F20027B92B /* ScoopTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopTalkTests.swift; sourceTree = "<group>"; };
+		681E5D3E255042F20027B92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681E5D43255042F20027B92B /* ScoopTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681E5D47255042F20027B92B /* ScoopTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopTalkUITests.swift; sourceTree = "<group>"; };
+		681E5D49255042F20027B92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		681E5D24255042EE0027B92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681E5D35255042F20027B92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681E5D40255042F20027B92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		681E5D1E255042EE0027B92B = {
+			isa = PBXGroup;
+			children = (
+				681E5D29255042EE0027B92B /* ScoopTalk */,
+				681E5D3B255042F20027B92B /* ScoopTalkTests */,
+				681E5D46255042F20027B92B /* ScoopTalkUITests */,
+				681E5D28255042EE0027B92B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		681E5D28255042EE0027B92B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				681E5D27255042EE0027B92B /* ScoopTalk.app */,
+				681E5D38255042F20027B92B /* ScoopTalkTests.xctest */,
+				681E5D43255042F20027B92B /* ScoopTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		681E5D29255042EE0027B92B /* ScoopTalk */ = {
+			isa = PBXGroup;
+			children = (
+				681E5D2A255042EE0027B92B /* ScoopTalkApp.swift */,
+				681E5D2C255042EE0027B92B /* ContentView.swift */,
+				681E5D2E255042F20027B92B /* Assets.xcassets */,
+				681E5D33255042F20027B92B /* Info.plist */,
+				681E5D30255042F20027B92B /* Preview Content */,
+			);
+			path = ScoopTalk;
+			sourceTree = "<group>";
+		};
+		681E5D30255042F20027B92B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				681E5D31255042F20027B92B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		681E5D3B255042F20027B92B /* ScoopTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				681E5D3C255042F20027B92B /* ScoopTalkTests.swift */,
+				681E5D3E255042F20027B92B /* Info.plist */,
+			);
+			path = ScoopTalkTests;
+			sourceTree = "<group>";
+		};
+		681E5D46255042F20027B92B /* ScoopTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				681E5D47255042F20027B92B /* ScoopTalkUITests.swift */,
+				681E5D49255042F20027B92B /* Info.plist */,
+			);
+			path = ScoopTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		681E5D26255042EE0027B92B /* ScoopTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681E5D4C255042F20027B92B /* Build configuration list for PBXNativeTarget "ScoopTalk" */;
+			buildPhases = (
+				681E5D23255042EE0027B92B /* Sources */,
+				681E5D24255042EE0027B92B /* Frameworks */,
+				681E5D25255042EE0027B92B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoopTalk;
+			productName = ScoopTalk;
+			productReference = 681E5D27255042EE0027B92B /* ScoopTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		681E5D37255042F20027B92B /* ScoopTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681E5D4F255042F20027B92B /* Build configuration list for PBXNativeTarget "ScoopTalkTests" */;
+			buildPhases = (
+				681E5D34255042F20027B92B /* Sources */,
+				681E5D35255042F20027B92B /* Frameworks */,
+				681E5D36255042F20027B92B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681E5D3A255042F20027B92B /* PBXTargetDependency */,
+			);
+			name = ScoopTalkTests;
+			productName = ScoopTalkTests;
+			productReference = 681E5D38255042F20027B92B /* ScoopTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		681E5D42255042F20027B92B /* ScoopTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681E5D52255042F20027B92B /* Build configuration list for PBXNativeTarget "ScoopTalkUITests" */;
+			buildPhases = (
+				681E5D3F255042F20027B92B /* Sources */,
+				681E5D40255042F20027B92B /* Frameworks */,
+				681E5D41255042F20027B92B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681E5D45255042F20027B92B /* PBXTargetDependency */,
+			);
+			name = ScoopTalkUITests;
+			productName = ScoopTalkUITests;
+			productReference = 681E5D43255042F20027B92B /* ScoopTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		681E5D1F255042EE0027B92B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					681E5D26255042EE0027B92B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					681E5D37255042F20027B92B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 681E5D26255042EE0027B92B;
+					};
+					681E5D42255042F20027B92B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 681E5D26255042EE0027B92B;
+					};
+				};
+			};
+			buildConfigurationList = 681E5D22255042EE0027B92B /* Build configuration list for PBXProject "ScoopTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 681E5D1E255042EE0027B92B;
+			productRefGroup = 681E5D28255042EE0027B92B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				681E5D26255042EE0027B92B /* ScoopTalk */,
+				681E5D37255042F20027B92B /* ScoopTalkTests */,
+				681E5D42255042F20027B92B /* ScoopTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		681E5D25255042EE0027B92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681E5D32255042F20027B92B /* Preview Assets.xcassets in Resources */,
+				681E5D2F255042F20027B92B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681E5D36255042F20027B92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681E5D41255042F20027B92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		681E5D23255042EE0027B92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681E5D2D255042EE0027B92B /* ContentView.swift in Sources */,
+				681E5D2B255042EE0027B92B /* ScoopTalkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681E5D34255042F20027B92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681E5D3D255042F20027B92B /* ScoopTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681E5D3F255042F20027B92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681E5D48255042F20027B92B /* ScoopTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		681E5D3A255042F20027B92B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681E5D26255042EE0027B92B /* ScoopTalk */;
+			targetProxy = 681E5D39255042F20027B92B /* PBXContainerItemProxy */;
+		};
+		681E5D45255042F20027B92B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681E5D26255042EE0027B92B /* ScoopTalk */;
+			targetProxy = 681E5D44255042F20027B92B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		681E5D4A255042F20027B92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		681E5D4B255042F20027B92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681E5D4D255042F20027B92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ScoopTalk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ScoopTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempjo.ScoopTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		681E5D4E255042F20027B92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ScoopTalk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ScoopTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempjo.ScoopTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		681E5D50255042F20027B92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScoopTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempjo.ScoopTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoopTalk.app/ScoopTalk";
+			};
+			name = Debug;
+		};
+		681E5D51255042F20027B92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScoopTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempjo.ScoopTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoopTalk.app/ScoopTalk";
+			};
+			name = Release;
+		};
+		681E5D53255042F20027B92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScoopTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempjo.ScoopTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScoopTalk;
+			};
+			name = Debug;
+		};
+		681E5D54255042F20027B92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScoopTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempjo.ScoopTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScoopTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		681E5D22255042EE0027B92B /* Build configuration list for PBXProject "ScoopTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681E5D4A255042F20027B92B /* Debug */,
+				681E5D4B255042F20027B92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681E5D4C255042F20027B92B /* Build configuration list for PBXNativeTarget "ScoopTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681E5D4D255042F20027B92B /* Debug */,
+				681E5D4E255042F20027B92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681E5D4F255042F20027B92B /* Build configuration list for PBXNativeTarget "ScoopTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681E5D50255042F20027B92B /* Debug */,
+				681E5D51255042F20027B92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681E5D52255042F20027B92B /* Build configuration list for PBXNativeTarget "ScoopTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681E5D53255042F20027B92B /* Debug */,
+				681E5D54255042F20027B92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 681E5D1F255042EE0027B92B /* Project object */;
+}
